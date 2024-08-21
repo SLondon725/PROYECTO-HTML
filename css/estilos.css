@@ -1,0 +1,725 @@
+/* Agregando estilos a todo la pagina */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.cabecera{
+    background-image: url('../img/Granos\ de\ cafe\ fondo.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir el área */
+    background-repeat: no-repeat; /* No repite la imagen */
+}
+
+/* Oculta el checkbox */
+#menu-toggle{
+    display: none; /* Oculta el checkbox de la vista */
+}
+
+.menu .burro {
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+
+/* Aqui inician los estilos del nav 1000px */
+.menu{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 2em 0;
+}
+
+.menu .menu-icon , .menu .menu-items{
+    width: 15%;
+    vertical-align: middle;
+    display: inline-block;
+    list-style-type: none;
+}
+.menu .menu-items{
+    width: 70%;
+    border-bottom: 1px solid rgb(53, 3, 3);
+    margin-left: 3em;
+}
+.menu-items li{
+    width: 18%;
+    display: inline-block;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 1em 0;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 1em 3em;
+    border-radius: 10px;
+}
+
+.activado {
+    background-color: rgba(80, 5, 5, 0.541);
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 3em auto;
+    
+}
+h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 48px;
+}
+
+.row {
+    color: aliceblue;
+    background-color: rgba(5, 5, 5, 0.90);
+    box-shadow: 0 0 10em 6em rgb(0, 0, 0);
+    text-align: center;
+}
+
+.logo-cafe{
+    display: none;
+}
+
+#bienvenida{
+    font-size: 20px; 
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.row div{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px; 
+    font-family: 'Rock Salt', cursive;
+    padding: 2em 0;
+}
+
+.row .frase{
+    margin-right: 1em;
+}
+
+
+/* Dando estilos al menu del cafe/bar carta-menu*/
+.carta-menu{
+    background-image: url('../img/granos1.svg');
+    background-size:cover; /* Ajusta la imagen para cubrir el área */
+    background-position: 100%;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4em;
+
+}
+.carta-menu img{
+    width: 80%; 
+    border-radius: 10% 50% 10% 50% ;
+
+}
+.carta-menu div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    background-color: rgb(156, 154, 154);
+    padding: 0.4em 0;
+    border-radius: 10% 50% 10% 50% ;
+}
+
+.carta-menu .producto{
+    margin-left: 2em;
+    padding: 0 0 0.2em 0;
+}
+
+/* Dando estilos a la tipografia de menu carta */
+.carta-menu h2{
+    padding: 1em 0 1em 0 ;
+}
+.carta-menu h3{
+    padding: 0.5em;
+    font-size: 20px;
+}
+.carta-menu p{
+    font-size: 18px;
+}
+.carta-menu a, .descripcion-producto{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.carta-menu a:hover{
+    color: rgb(59, 3, 3);
+}
+
+/* Seccion de cafes especiales */
+
+.cafe-especiales{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 6em;
+}
+.row2 .col{
+    margin-top: 2em ;
+    margin-left: 2em;  
+}
+.col .rie{
+    vertical-align: middle;
+    display: inline-block;
+    width: 18%;
+    padding: 1em;
+    margin: 0.5em;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+.descripcion-producto{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 1em;
+    background-color: rgb(59, 6, 6);
+    border-radius: 20px;
+}
+.descripcion-producto:hover{
+    color: rgb(59, 3, 3);
+    background-color: #fff;
+    
+}
+
+.col .imagen{
+    background-color: black;
+    border: 0px black solid ;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Tipografias cafe especiales */
+.cafe-especiales h2, .carta-menu h2{
+    padding: 2em 0 0.5em 0 ;
+    font-size: 35px; 
+    font-family: 'Rock Salt', cursive;
+}
+.cafe-especiales p, .rie button{
+    font-size: 20px;
+}
+
+.row2 .catalogo{
+    padding: 0 0 0 0;
+}
+
+/* Agregando estilos al footer */
+footer{
+    color: rgb(255, 255, 255);
+    background-image: url('../img/fondo3.png');
+    background-size:cover; /* Ajusta la imagen para cubrir el área */
+}
+
+footer .contenedor{
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 3em 0;
+    margin: auto;
+    text-align: center;
+
+}
+.contenedor div{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contenedor p, .contenedor i{
+    font-size: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.contenedor i{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.contenedor .formulario{
+    text-align: center;
+}
+
+.contenedor form{
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 70%;
+    margin: auto;
+    padding: 2em 0;
+    border-radius: 10px;
+}
+
+.formulario input , .formulario textarea, .formulario button{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(90, 5, 5);
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 1em;
+    resize: none;
+}
+
+.formulario input:focus, .formulario textarea:focus, .formulario button:focus {
+    outline: none; /* Elimina el borde predeterminado */
+    border: 1px solid rgb(90, 5, 5);
+}
+
+/* Marca empresarial */
+#marca_empresarial{
+    margin: 1em;
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+/* Dando estilos a la pagina de catalogo */
+
+.menu-catalogo{
+    background-color: rgba(0, 0, 0, 0.80);
+    box-shadow: 0 0 0 6em rgba(0,0,0,0.80);
+}
+
+.row2 .catalogo-col{
+    margin-left: 0;
+}
+
+.historia-row div{
+    width: 90%;
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.781);
+}
+.historia-row .origen-cafe{
+    width: 60%;
+    background-image: url('../img/fondo3.png');
+    background-size: cover; /* Asegura que el GIF cubra todo el área del div */
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 1px rgb(53, 3, 3);
+    margin-bottom: 3em;
+}
+.origen-cafe p, .origen-cafe h3, .texto-fundadores p, .texto-fundadores h3{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.historia-row .fundadores{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3em;
+}
+.fundadores div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%; 
+}
+.fundadores .texto-fundadores{
+    width: 40%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 10px;
+    margin-left: 2em;
+}
+.historia-row .proceso-cultivo, .historia-row .mision-vision{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.proceso-cultivo div{
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+}
+.proceso-cultivo img{
+    border-radius: 50%;
+    margin: 2em 0;
+}
+.proceso-cultivo h3{
+    padding-top: 2em;
+}
+.proceso-cultivo p{
+    padding-bottom: 2em;
+}
+.mision-vision h3{
+    padding-bottom: 1em;
+}
+
+/* Contactos */
+.contacto-row{
+    padding-bottom: 2em;
+}
+.contacto-row div{
+    padding: 1em 0;
+}
+.contacto-row p{
+    font-size: 20px;
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacto-row h2{
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+
+.contacto-row form{
+    border: 1px rgba(73, 5, 5, 0.479) solid;
+}
+.contacto-row form{
+    background-color: rgba(3, 3, 3, 0.678);
+    width: 70%;
+    margin: auto;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+.contacto-row i{
+    margin-left: 1em;
+}
+.contacto-row .mapa{
+    width: 90%;
+}
+
+/* Descripcion de los productos */
+.descripcion-cafe-especiales{
+    background-image: url('../img/cafe\ rock\ 2.png');
+    background-repeat: repeat; /* Esto hace que la imagen se repita */
+    box-shadow: 0 0 6em 7em rgb(0, 0, 0);
+}
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #360505; /* Rojo vino para bordes */
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #380202; /* Rojo vino para bordes de celdas */
+}
+th {
+    background-color: #360101; /* Rojo vino */
+    color: #fff;
+}
+td {
+    background-color: #000000ef; /* Fondo oscuro para celdas */
+}
+caption {
+    font-size: 1.5em;
+    margin: 2em 0 1em 0;
+    padding: 0.5em 0;
+    color: #fff;
+    background-color: black;
+}
+
+
+
+
+@media screen and (min-width:600px) and (max-width:999px){
+
+    .menu{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .menu .menu-items{
+        width: 90%;
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: left;
+
+    }
+    .menu-items li{
+        padding: 1em ;
+    }
+    li a{
+        padding: 1em 2em;
+    }
+
+    .menu .menu-icon{
+        width: 30%;
+        margin-bottom: 3em;
+    }
+
+    header{
+        width: 84%;
+        margin: 2em auto 2em auto;
+    }
+    h1{
+        font-size: 32px;
+    }
+    #bienvenida{
+        width: 70%;
+    }
+    .row div{
+        width: 42%;
+        font-size: 28px;
+    }
+
+    /* Inicio seccion carta menu*/
+    .carta-menu img{
+        width: 96%; 
+    }
+    .carta-menu div{
+        width: 43%;
+    }
+    .carta-menu a{
+        font-size: 18px;
+    }
+
+    /* Seccion de cafes especiales */
+
+    .cafe-especiales{
+        text-align: center;
+        color: aliceblue;
+        padding-bottom: 4em;
+    }
+
+    .row2 .col{
+        margin-top: 2em ;
+        margin-left: 0;
+    
+    }
+
+    .col .rie{
+        width: 30%;
+        margin-left: 2em;
+    }
+
+    .col .imagen{
+        display:none;
+    }
+
+    .cafe-especiales p{
+        font-size: 18px;
+    }
+
+    .cafe-especiales h2, .carta-menu h2{
+        padding: 2em 0 0 0 ;
+        font-size: 32px;
+    }
+  
+    /* Agregando estilos al footer */
+    footer{
+        background-position: 25%;
+    }
+    .contenedor div{
+        width: 42%;
+        margin-bottom: 2em;
+    }
+    .contenedor p, .contenedor i{
+        font-size: 15px;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .contenedor i{
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+    .contenedor form{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* estilos para la pagina historia */
+
+    .historia-row .origen-cafe{
+        width: 90%; 
+    }
+
+    .fundadores div{
+        width: 80%; 
+    }
+
+    .fundadores .texto-fundadores{
+        width: 90%;
+        margin-left: 0em;
+    }
+
+    .proceso-cultivo div{
+        width: 40%;
+        margin-left: 1em;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 599px){
+    .menu .menu-icon{
+        width: 60%;
+        margin-bottom: 3em;
+    }
+    .menu-items li{
+        display: none;
+
+    }
+    .menu .burro {
+        font-size: 30px;
+        color: white;
+        display: flex;
+        margin-top: -2em;
+        margin-left: 1em;
+    }
+    .menu .menu-icon img{
+        display: none;
+    }
+    .menu .menu-items{
+        border-bottom: none;
+    }
+    
+    .menu-items{
+        flex-direction: column; /* Oculta los elementos del menú por defecto */
+        padding: 0;
+        text-align: center;
+        margin: auto;
+    }
+
+    /* Muestra los elementos del menú en línea cuando el checkbox está marcado */
+    #menu-toggle:checked ~ .menu-items {
+        display: flex;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.767);
+        padding: 1em;
+        border-radius: 10px;
+    }
+    
+    /* Asegura que los elementos permanezcan en línea */
+    #menu-toggle:checked ~ .menu-items li {
+        display: contents;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .logo-cafe{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 3em;
+    }
+    .row {
+        padding-bottom: 3em;
+    }
+
+    .row div{
+        display: none;
+    }
+
+    /* aqui inicia los estilos para la carta */
+    .carta-menu div{
+        width: 90%;
+        background-color:rgba(245, 245, 220, 0);
+        border-radius: 10% 10% 10% 10% ;
+    }
+    .carta-menu .producto{
+        margin-left: 0;
+        padding: 0 0 0.2em 0;
+        background-color: rgb(156, 154, 154);
+        border-radius: 30% 30% 30% 30% ;
+        margin-top: 2em;
+    }
+    .carta-menu h2{
+        padding: 2em 0 1em 0 ;
+        
+    }
+
+    /* Aqui inician los estilos para la seccion de cafes especiales */
+        
+    .cafe-especiales{
+        padding-bottom: 4em;
+    }
+
+    .row2 .col{
+        margin-left: 0em; 
+    }
+
+    .col .rie{
+         width: 60%;
+    }
+
+    .col .imagen{
+        width: 50%; 
+    }
+
+    /* Tipografias cafe especiales */
+    .cafe-especiales h2{
+        padding: 2em 0 0 0 ; 
+        font-size: 30px; 
+    }
+    .cafe-especiales p, .rie button{
+        font-size: 18px; 
+    }
+
+    /* Aqui comienzan los estilos para el footer */
+    .contenedor div{
+        width: 90%; 
+    }
+    
+    .contenedor p, .contenedor i{
+        font-size: 15px;
+    }
+
+    .contenedor .redes-sociales{
+        margin: 2em 0;
+    }
+
+    /* Dando estilos a la pagina de catalogo */
+
+    .menu-catalogo{
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 0 30em rgba(0, 0, 0, 0.8);
+    }
+
+    /* estilos para la pagina historia */
+
+    .historia-row .origen-cafe{
+        width: 90%; 
+    }
+
+    .fundadores div{
+        width: 80%; 
+    }
+
+    .fundadores .texto-fundadores{
+        width: 90%;
+        margin-left: 0em;
+    }
+
+    .proceso-cultivo div{
+        width: 80%;
+        margin-left: 1em;
+    }
+    .historia-row div{
+        font-size: 18px; 
+    }
+
+    /* Seccion contacto */
+    .contacto-row div{
+        display: inline-block;
+        width: 90%;
+    }
+
+
+
+
+}

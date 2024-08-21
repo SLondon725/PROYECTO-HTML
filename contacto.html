@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon.svg " type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Enlace a Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<body>
+
+    <div class="cabecera">
+        <!-- Creando la navegacion de la pagina -->
+        <nav class="menu">
+            <input type="checkbox" id="menu-toggle">
+            
+            <!-- Logo del menú -->
+            <label class="menu-icon">
+                <img src="img/Café de las leyendas.png" alt="logo cafe de las leyendas">
+            </label>
+            
+            <!-- Ícono de hamburguesa -->
+            <label for="menu-toggle" class="burro">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        
+            <!-- Elementos del menú -->
+            <ul class="menu-items">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="catalogo.html">CATALOGO</a></li>
+                <li><a href="historia.html">HISTORIA</a></li>
+                <li><a class="activado" href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Creando el encabezado de la pagina -->
+        <img class="logo-cafe" src="img/Café de las leyendas.png" alt="">
+        <header>
+            <h1>Conéctate con Nosotros</h1>
+        </header>
+
+        <section class="row contacto-row">
+            
+            <p>Estamos aquí para ayudarte a disfrutar cada sorbo de nuestras leyendas.</p>
+
+            <div>
+                <h2>Síguenos en:</h2>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            
+            <div>
+                <h2>Información de Contacto</h2>
+                <p><strong>Dirección Física:</strong> Calle 123 #45-67, Barrio El Paraíso, Ciudad Fantasía</p>
+                <p><strong>Teléfono:</strong> +57 312 812 0017</p>
+                <p><strong>Correo Electrónico:</strong> cafedelasleyendas@gmail.com</p>
+                <p><strong>Horario de Atención:</strong> Lunes a sábado, de 09:00 AM a 11:00 PM</p>
+
+            </div>
+           
+            <div class="formulario">
+                <form>
+                    <h2>Formulario de Contacto</h2>
+                    <input name='nombre' type='text' placeholder="Nombre"/><br>
+                    <input name='email' type="email" placeholder="Email"><br>
+                    <input name='asunto' type="text" placeholder="Asunto"><br>
+                    <textarea name="textarea" placeholder="Escribe tu comentario aqui"></textarea><br>
+                    <button id="enviar" name="enviar" type="submit">ENVIAR</button>
+                </form>
+            </div>
+            <div class="mapa">
+                <h2>Mapa de Ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16257429.650927104!2d-85.04186018488791!3d5.841663928187154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1ses-419!2sus!4v1723607224643!5m2!1ses-419!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <p>¡Gracias por visitar el Café de las Leyendas! Nos encanta escuchar a nuestros clientes y estamos aquí para cualquier duda, comentario o sugerencia. ¡Hagamos juntos que cada taza sea una leyenda!</p>
+
+
+           
+        </section>
+
+    </div>
+    <footer>
+        <div class="contenedor">
+            <div>
+                <p>CONTACTANOS</p>
+                <p><i class="fa-solid fa-phone"></i> +57 312 812 0117</p>
+                <p><i class="fa-solid fa-envelope"></i> cafedelasleyendas@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Calle 123 #45-67, Barrio El Paraíso, Ciudad Fantasía</p>
+            </div>
+            <div class="redes-sociales">
+                <p>REDES SOCIALES</p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="formulario">
+                <form>
+                    <input name='nombre' type='text' placeholder="Nombre"/><br>
+                    <input name='email' type="email" placeholder="Email"><br>
+                    <textarea name="textarea" placeholder="Escribe tu comentario aqui"></textarea><br>
+                    <button id="enviar" name="enviar" type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+        
+    </footer>
+
+    <p id="marca_empresarial">By Slondon © 2024</p> 
+    
+</body>
+</html>
+
