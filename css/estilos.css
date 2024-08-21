@@ -112,7 +112,7 @@ h1{
 
 /* Dando estilos al menu del cafe/bar carta-menu*/
 .carta-menu{
-    background-image: url('../img/granos1.svg');
+    background-image: url('../img/granos1.png');
     background-size:cover; /* Ajusta la imagen para cubrir el área */
     background-position: 100%;
     text-align: center;
